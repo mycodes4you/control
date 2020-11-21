@@ -1,0 +1,74 @@
+.modal{ 
+	/*left:0;*/
+	/*right:0;*/
+	/*bottom:0;*/
+	/*position: fixed;*/
+	/*background: #0000004d;*/
+	/*margin: 0 auto;*/
+	display: block;
+	/*padding: 0;*/
+	/*height: auto;*/
+	/*box-shadow: 0 0 130px 28px #00000073;*/
+}
+
+.modal-head{
+	background: #222;
+	color: #FFF;
+	padding: 5px;
+	font-size: 17px;
+	line-height: 32px;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    /*display: none;*/
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+}
+[v-cloak] > * { display:none; }
+[v-cloak]::before { 
+  content: " ";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-image: url('data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==');
+}
+.color-azul {
+	background-color: #007bff;
+}
+
+.crop{
+ float:left;
+ margin:.5em 10px .5em 0;
+ overflow:hidden; /* IMPORTANTE */
+ position:relative; /* IMPORTANTE */
+ border:1px solid #ccc;
+ width:100%;
+ height:150px;
+ }
+ /* Ocultamos parte de la imagen */
+.crop img{
+ position:absolute;
+ top:0px;
+ left:0px;
+ }
+
+ .crop-slider{
+ float:left;
+ margin:.5em 10px .5em 0;
+ overflow:hidden; /* IMPORTANTE */
+ position:relative; /* IMPORTANTE */
+ border:1px solid #ccc;
+ width:100%;
+ height:300px;
+ }
+ /* Ocultamos parte de la imagen */
+.crop-slider img{
+ position:absolute;
+ top:0px;
+ left:0px;
+ }
